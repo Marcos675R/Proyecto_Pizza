@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+    <title>Pizzeria Di´antonio</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-sm">
+          <a class="navbar-brand" href="index.html">Pizzeria Di´Antonio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Menu.html">Menú</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pedidos.html">Pedidos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <h1>Pedidos</h1>
+      <div class="container-sm" align="center">
+        <form class="needs-validation" novalidate>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip01">Nombre Completo</label>
+              <input type="text" class="form-control" id="validationTooltip01" placeholder="Marcos Toro" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip02">Direccion</label>
+              <input type="text" class="form-control" id="validationTooltip02" placeholder="Moneda 112" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-6 mb-3">
+              <label for="validationTooltip03">Ciudad</label>
+              <input type="text" class="form-control" placeholder="Santiago" id="validationTooltip03" required>
+              <div class="invalid-tooltip">
+                Please provide a valid city.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip04">Comuna</label>
+              <select class="custom-select" id="validationTooltip04" required>
+                <option selected disabled value="">Seleccione Comuna</option>
+                <option>Santiago</option>
+                <option>Colina</option>
+                <option>Pudahuel</option>
+                <option>Las Condes</option>
+                <option>Providencia</option>
+              </select>
+              <div class="invalid-tooltip">
+                Please select a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationTooltip05">Numero de Tarjeta</label>
+              <input type="text" class="form-control" placeholder="xxxx-xxxx-xxxx-xxxx" id="validationTooltip05" required>
+              <div class="invalid-tooltip">
+                Please provide a valid zip.
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-warning" type="submit">Realizar Pago</button>
+        </form>       
+      </div>
+      <footer>
+        <h2>Pizzeria Di´Antonio</h2> 
+     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+</body>
+</html>
