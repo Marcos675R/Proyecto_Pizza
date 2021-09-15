@@ -4,9 +4,9 @@ function cambiarColor(){
 
 }
 
-$( "button" ).click(function() {
+  $( "button" ).click(function() {
     $( "p" ).show( "slow" );
-  });
+   });
 
- 
-  $("#miModal").modal("show");
+
+
